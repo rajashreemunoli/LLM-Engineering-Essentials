@@ -52,7 +52,7 @@ The following videos will help you to understand how the repo and the service th
 
 Please check the [deployment manual](https://github.com/Nebius-Academy/LLMOps-Essentials/blob/main/DEPLOYMENT_MANUAL.md) to learn how to deploy the service on your VM.
 
-**A task for you**. We'll start with a simple task for you to start wrapping your mind around the repo:
+**A task for you**. To start wrapping your mind around the repo:
 
 1. Update the range of available LLMs. Add something new and fashionable
 2. Locate where chat history is stored and find out how to get it by querying the service from colab
