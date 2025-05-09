@@ -40,7 +40,7 @@
 
 ## Project part: deploying an LLM-powered service
 
-The project materials are in the [LLMOps Essentials repo](https://github.com/Nebius-Academy/LLMOps-Essentials). 
+The project materials are in the [LLMOps Essentials repo](https://github.com/Nebius-Academy/LLMOps-Essentials). For now, you only need the `main` branch which deploys the simple API-based service (we'll proceed to RAG and open-source LLM deployment in the later topics).
 
 The following videos will help you to understand how the repo and the service that it implements work:
 
