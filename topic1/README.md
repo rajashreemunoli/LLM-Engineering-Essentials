@@ -38,6 +38,26 @@
 
   Build a chatbot based on a fantasy character and explore advanced features like giving it a scratchpad — a space for its own "thoughts."
 
+## Project part: deploying an LLM-powered service
+
+The project materials are in the [LLMOps Essentials repo](https://github.com/Nebius-Academy/LLMOps-Essentials). 
+
+The following videos will help you to understand how the repo and the service that it implements work:
+
+1. [Designing a chat service using LLMs: A simple way](https://youtu.be/pOXA7ZuB-98)
+2. [Designing a chat service using LLMs: Running a service](https://youtu.be/Ry0nXts6B0o)
+3. [Designing a chat service using LLMs: An advanced way](https://youtu.be/N6okNbcGjY8)
+4. [Running the chat service](https://youtu.be/pPFWefazyAQ)
+5. (Optional) [Advanced topics: Kubernetes deployment](https://youtu.be/uVEP4doSGQ4) - we prepared this one for those who already know about Kubernetes and want to understand how to deploy the chat service in it
+
+Please check the [deployment manual](https://github.com/Nebius-Academy/LLMOps-Essentials/blob/main/DEPLOYMENT_MANUAL.md) to learn how to deploy the service on your VM.
+
+**A task for you**. We'll start with a simple task for you to start wrapping your mind around the repo:
+
+1. Update the range of available LLMs. Add something new and fashionable
+2. Locate where chat history is stored and find out how to get it by querying the service from colab
+3. Try adding scratchpad support
+
 ## Additional reading: 
 
 * [**LLM training overview**](https://nebius-academy.github.io/knowledge-base/llm-training-overview/)
