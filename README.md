@@ -69,7 +69,7 @@ During the course, you'll build a platform that serves intelligent, believable, 
 
 ## 💬 Join the community
 
-Connect with experts, engage in discussions, ask questions, and share insights, experiences, and feedback with fellow learners on Discord. Stay in the loop — live session announcements will be posted there, too!
+Connect with experts, engage in discussions, ask questions, and share insights, experiences, and feedback with fellow learners [on Discord](https://discord.com/invite/WJ2DUQRz4m). Stay in the loop — live session announcements will be posted there, too!
 
 For updates, you can also subscribe to our newsletter.
 
