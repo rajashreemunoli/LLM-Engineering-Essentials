@@ -1,0 +1,189 @@
+<think>
+Okay, so I need to find the radius of a circle that has two parallel chords, 6 units apart, one with length 14 and the other with length 10. Hmm, let me visualize this. There's a circle, and inside it, two chords that are parallel. The distance between them is 6 units. The longer chord is 14 units, and the shorter one is 10 units. The problem is asking for the radius of the circle.
+
+First, I remember that in a circle, the perpendicular distance from the center to a chord can be found using the Pythagorean theorem. Specifically, if you have a chord of length \( 2a \), then the distance \( d \) from the center to the chord is related to the radius \( r \) by the equation \( r^2 = a^2 + d^2 \). So, if I can find the distances from the center to each chord, then maybe I can set up equations and solve for the radius.
+
+But wait, the two chords are 6 units apart. Depending on whether they are on the same side of the center or on opposite sides, the distance between them could be related to the sum or difference of their distances from the center. Let me think. If both chords are on the same side of the center, then the distance between them would be the difference of their distances from the center. If they are on opposite sides, the distance would be the sum. So, since the problem doesn't specify, maybe I need to consider both possibilities?
+
+But maybe there's a way to figure out which case it is. Let's see. If the two chords are on the same side of the center, then the longer chord (14 units) should be closer to the center than the shorter one (10 units), right? Because the closer a chord is to the center, the longer it is. So if they are on the same side, the distance from the center to the 14-unit chord is less than the distance to the 10-unit chord, and the distance between the chords would be the difference. If they are on opposite sides, then the total distance between them would be the sum of their distances from the center.
+
+But the problem states that the distance between the chords is 6 units. So depending on whether they are on the same side or opposite sides, the relationship between their distances from the center would be different. Let me denote the distance from the center to the 14-unit chord as \( d_1 \) and the distance from the center to the 10-unit chord as \( d_2 \).
+
+If the chords are on the same side of the center, then \( |d_1 - d_2| = 6 \). If they are on opposite sides, then \( d_1 + d_2 = 6 \). But since the 14-unit chord is longer, it's closer to the center, so if they are on the same side, \( d_1 < d_2 \), so \( d_2 - d_1 = 6 \). If they are on opposite sides, then \( d_1 + d_2 = 6 \), but since both distances are positive, the sum is 6. So we need to check both cases.
+
+But maybe only one case is possible. Let's try to see.
+
+First, let's write the equations for the radius in terms of each chord.
+
+For the 14-unit chord: The length of the chord is 14, so half of that is 7. Then, using the formula, \( r^2 = 7^2 + d_1^2 \), which is \( r^2 = 49 + d_1^2 \).
+
+For the 10-unit chord: The length is 10, half is 5. So, \( r^2 = 5^2 + d_2^2 \), which is \( r^2 = 25 + d_2^2 \).
+
+Since both equal \( r^2 \), we can set them equal to each other: \( 49 + d_1^2 = 25 + d_2^2 \). Therefore, \( d_2^2 - d_1^2 = 24 \).
+
+Now, depending on the case (same side or opposite sides), we can relate \( d_1 \) and \( d_2 \).
+
+Case 1: Chords on the same side. Then \( d_2 = d_1 + 6 \).
+
+Case 2: Chords on opposite sides. Then \( d_1 + d_2 = 6 \).
+
+Let's check both cases.
+
+Case 1: \( d_2 = d_1 + 6 \)
+
+Substitute into \( d_2^2 - d_1^2 = 24 \):
+
+\( (d_1 + 6)^2 - d_1^2 = 24 \)
+
+Expanding: \( d_1^2 + 12d_1 + 36 - d_1^2 = 24 \)
+
+Simplify: 12d_1 + 36 = 24
+
+12d_1 = -12
+
+d_1 = -1
+
+Wait, that can't be possible. Distance can't be negative. So this case leads to a negative distance, which is impossible. Therefore, Case 1 is invalid. So they must be on opposite sides.
+
+Case 2: \( d_1 + d_2 = 6 \)
+
+So \( d_2 = 6 - d_1 \)
+
+Substitute into \( d_2^2 - d_1^2 = 24 \):
+
+\( (6 - d_1)^2 - d_1^2 = 24 \)
+
+Expanding: \( 36 - 12d_1 + d_1^2 - d_1^2 = 24 \)
+
+Simplify: 36 - 12d_1 = 24
+
+Then, -12d_1 = -12
+
+So, d_1 = 1
+
+That's positive, so that works. Then, since \( d_1 + d_2 = 6 \), d_2 = 6 - 1 = 5.
+
+Okay, so distances from center to the chords are 1 unit and 5 units.
+
+Now, let's find the radius. Using the 14-unit chord:
+
+\( r^2 = 7^2 + d_1^2 = 49 + 1 = 50 \)
+
+Therefore, \( r = \sqrt{50} = 5\sqrt{2} \approx 7.07 \)
+
+Alternatively, using the 10-unit chord:
+
+\( r^2 = 5^2 + d_2^2 = 25 + 25 = 50 \), same result.
+
+So that checks out.
+
+Wait, but just to make sure, let's verify that the distance between the chords is indeed 6. If one chord is 1 unit from the center on one side, and the other is 5 units on the opposite side, then the total distance between them is 1 + 5 = 6 units. Yes, that's correct.
+
+But wait, hold on. The problem says the two chords are 6 units apart. If they are on opposite sides, the distance between them is the sum of their distances from the center. So 1 + 5 = 6, which matches. If they were on the same side, the distance between them would be |5 - 1| = 4, but since that case led to a negative distance, which is impossible, so the only possible case is opposite sides.
+
+Therefore, the radius is \( \sqrt{50} \), which simplifies to \( 5\sqrt{2} \). Let me check if that's correct.
+
+Alternatively, maybe there is another way to approach this problem. Let me think.
+
+Another approach: Let's consider the coordinates. Let me place the circle with center at (0,0). Then, let's assume one chord is horizontal, say the longer chord (14 units) at some y-coordinate. The other chord is parallel, so also horizontal, 6 units apart. Let me define the positions.
+
+Suppose the 14-unit chord is at a distance \( d_1 \) above the center, so its equation is y = d1. Then, the 10-unit chord is 6 units away. If they are on opposite sides, then the 10-unit chord is at y = -d2, where d1 + d2 = 6. If they are on the same side, the 10-unit chord is at y = d1 + 6 or y = d1 - 6, but as we saw before, that leads to a negative distance.
+
+But since in the previous calculation, the distances from the center are 1 and 5, and 1 + 5 = 6, they must be on opposite sides. Therefore, the coordinates of the chords would be y = 1 and y = -5? Wait, no. Wait, if the center is at (0,0), and the 14-unit chord is 1 unit away from the center, then it's either at y = 1 or y = -1. Similarly, the 10-unit chord is 5 units away, so at y = 5 or y = -5. But the distance between the chords is the vertical distance between them. So if one is at y = 1 and the other at y = -5, the distance between them is |1 - (-5)| = 6, which is correct. Alternatively, if one is at y = -1 and the other at y = 5, distance is |-1 -5| = 6. Either way, the vertical distance is 6.
+
+But the chords are in the circle. Let's see if that's possible.
+
+So the radius is \( 5\sqrt{2} \approx 7.07 \). If one chord is at y = 1, then the topmost point of the circle is at y = \( 5\sqrt{2} \approx 7.07 \), so the chord at y = 5 is still inside the circle? Wait, the chord at y = 5 would have a distance from the center of 5 units, so the radius must be at least 5 units. But our radius is \( 5\sqrt{2} \approx 7.07 \), which is more than 5, so that's fine. Similarly, the chord at y = 1 is inside the circle as well.
+
+So everything checks out.
+
+Therefore, the radius is \( 5\sqrt{2} \).
+
+Wait, let me just recap to ensure I didn't skip any steps or make any miscalculations.
+
+We had two chords, 14 and 10 units long, 6 units apart. Set up the equations using the Pythagorean theorem for each chord's distance from the center. Found that the difference of squares of the distances was 24. Then considered two cases for the sum or difference of the distances. The same-side case gave a negative distance, which was invalid. The opposite-sides case gave positive distances of 1 and 5 units. Plugged back into the radius formula and found \( \sqrt{50} \), which is \( 5\sqrt{2} \). Checked that the distances between chords works out to 6 units. Verified that all points are within the circle. Seems solid.
+
+I think that's the answer. Let me see if there's another way someone might approach it and perhaps verify.
+
+Alternatively, could use coordinate geometry. Let's place the circle at the origin. Let the two parallel chords be horizontal for simplicity. Let the longer chord (14) be above the center, at y = d, and the shorter chord (10) be 6 units below it, so at y = d - 6. Then, since both are chords of the circle, their endpoints lie on the circle.
+
+For the upper chord (14 units), the endpoints are at (7, d) and (-7, d), since the chord is horizontal and length 14, so half-length is 7. For the lower chord (10 units), endpoints are at (5, d - 6) and (-5, d - 6), since half-length is 5.
+
+These points must satisfy the circle equation \( x^2 + y^2 = r^2 \).
+
+So for the upper chord: \( 7^2 + d^2 = r^2 \)
+
+For the lower chord: \( 5^2 + (d - 6)^2 = r^2 \)
+
+Set equal:
+
+\( 49 + d^2 = 25 + (d - 6)^2 \)
+
+Expand the right-hand side:
+
+\( (d - 6)^2 = d^2 -12d +36 \)
+
+So equation becomes:
+
+49 + d^2 = 25 + d^2 -12d +36
+
+Simplify:
+
+49 = 25 + 36 -12d
+
+49 = 61 -12d
+
+Then, subtract 61:
+
+-12 = -12d
+
+Divide by -12:
+
+d = 1
+
+Therefore, d = 1. Then, substitute back into the equation for r:
+
+\( r^2 = 49 + (1)^2 = 50 \), so \( r = \sqrt{50} = 5\sqrt{2} \). Which matches the previous result. Therefore, this method also gives the same answer.
+
+This further confirms that the radius is \( 5\sqrt{2} \).
+
+So, both methods lead to the same conclusion, so I'm confident that the radius is indeed \( 5\sqrt{2} \).
+
+**Final Answer**
+The radius of the circle is \boxed{5\sqrt{2}}.
+</think>
+
+Given a circle with two parallel chords 6 units apart, where one chord has length 14 and the other has length 10, we need to find the radius of the circle.
+
+First, we use the relationship between the radius, the length of the chord, and the distance from the center to the chord. For a chord of length \(2a\), the distance \(d\) from the center is related to the radius \(r\) by the equation \(r^2 = a^2 + d^2\).
+
+For the 14-unit chord (half-length 7):
+\[ r^2 = 7^2 + d_1^2 \]
+\[ r^2 = 49 + d_1^2 \]
+
+For the 10-unit chord (half-length 5):
+\[ r^2 = 5^2 + d_2^2 \]
+\[ r^2 = 25 + d_2^2 \]
+
+Equating the two expressions for \(r^2\):
+\[ 49 + d_1^2 = 25 + d_2^2 \]
+\[ d_2^2 - d_1^2 = 24 \]
+
+Considering the distance between the chords, we analyze two cases: chords on the same side or opposite sides of the center. Since the longer chord (14 units) is closer to the center, we determine the valid case by solving for the distances \(d_1\) and \(d_2\).
+
+Case 1: Chords on opposite sides, so \(d_1 + d_2 = 6\):
+\[ d_2 = 6 - d_1 \]
+Substituting into \(d_2^2 - d_1^2 = 24\):
+\[ (6 - d_1)^2 - d_1^2 = 24 \]
+\[ 36 - 12d_1 + d_1^2 - d_1^2 = 24 \]
+\[ 36 - 12d_1 = 24 \]
+\[ -12d_1 = -12 \]
+\[ d_1 = 1 \]
+\[ d_2 = 6 - 1 = 5 \]
+
+Using these distances to find the radius:
+\[ r^2 = 49 + 1^2 = 50 \]
+\[ r^2 = 25 + 5^2 = 50 \]
+\[ r = \sqrt{50} = 5\sqrt{2} \]
+
+Thus, the radius of the circle is \(\boxed{5\sqrt{2}}\).
